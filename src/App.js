@@ -8,6 +8,7 @@ import Services from './Components/Services/Services';
 import Reviews from './Components/Reviews/Reviews';
 import NotFound from './Components/NotFound/NotFound';
 import About from './Components/About/About';
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

@@ -2,7 +2,8 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Button } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import HomeHighlight from '../HomeHighlight/HomeHighlight';
 
 const Home = () => {
@@ -25,6 +26,11 @@ const Home = () => {
                             highlights.map(highlight => <HomeHighlight highlight={highlight} key={highlight.id}></HomeHighlight>)
                         }
                     </Row>
+                    <Button variant="success" >
+                        <NavLink to="/services" className="text-white routing-links">
+                            See Details
+                        </NavLink>
+                    </Button>
                 </Container>
             </div>
         </div>

@@ -6,7 +6,7 @@ const HeaderHero = () => {
     return (
         <Row className="header-hero">
             {/* 1.Showing the svg image here */}
-            <Col xs={12} lg={5} className="hero-img ">
+            <Col xs={12} lg={4} className="hero-img ">
                 <img src={img} alt="" />
             </Col>
             {/* 2.Header title here  */}
