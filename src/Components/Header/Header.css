@@ -1,3 +1,6 @@
-.routing-links{
-    text-decoration: none;
+.header-hero-compo{
+    background-image: url("../../img/wave2.svg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
 }

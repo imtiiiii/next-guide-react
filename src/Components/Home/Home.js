@@ -3,10 +3,10 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
+        <div className="my-5">
             <h1>Welcome to home</h1>
         </div>
     );
 };
 
-export default Home; <h1>Welcome to home</h1>
+export default Home;

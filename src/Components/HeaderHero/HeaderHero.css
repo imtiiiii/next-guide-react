@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,500;1,300;1,500&display=swap');
+.header-hero{
+    font-family: 'Noto Sans Display', sans-serif;
+}
+/* .hero-img{
+    width:50%;
+}
+.hero-img img{
+    width: 100%;
+    height: 600px;
+} */
+.highlight-name{
+    color:coral
+}
