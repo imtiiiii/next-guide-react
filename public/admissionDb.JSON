@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "University Admission Preparation",
+        "for": "Unit A",
+        "price": 45
+    },
+    {
+        "id": 2,
+        "title": "University Admission Preparation",
+        "for": "Unit B",
+        "price": 35
+    },
+    {
+        "id": 3,
+        "title": "Medical Admission Preparation",
+        "for": "Dental Unit",
+        "price": 25
+    }
+]

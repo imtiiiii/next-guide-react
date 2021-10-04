@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Learn Complete English Language",
+        "for": "IELTS / Moving to Abroad",
+        "price": 40
+    },
+    {
+        "id": 2,
+        "title": "Learn Complete German Language",
+        "for": "GRE/Moving to German ",
+        "price": 50
+    }
+]

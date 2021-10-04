@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+.highlight-card{
+    font-family: 'Merriweather', serif;
+    background-color: wheat;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(../../img/wave3.svg);
+    /* background-repeat: no-repeat; */
+    /* background-position:center; */
+    object-fit:contain;
+
+}
