@@ -2,19 +2,22 @@
     {
         "id": 1,
         "title": "All Mandatory General Subject",
-        "for": "Bangladesh Studies, Religion Studies, English,General Math",
-        "price": 35
+        "to": "Bangladesh Studies, Religion Studies, English,General Math",
+        "price": 35,
+        "details": "Looking to keep scoring good marks in general subjects. Here it is, for you"
     },
     {
         "id": 2,
         "title": "Science Part",
-        "for": "All main + optional science section subjects",
-        "price": 60
+        "to": "All main + optional science section subjects",
+        "price": 60,
+        "details": "Go for this plan if you want to do well in the hardest sector of this exam"
     },
     {
         "id": 3,
         "title": "Commerce Part",
-        "for": "All main + optional commerce section subjects",
-        "price": 50
+        "to": "All main + optional commerce section subjects",
+        "price": 50,
+        "details": "We have got the best teachers to solve your maths problems."
     }
 ]

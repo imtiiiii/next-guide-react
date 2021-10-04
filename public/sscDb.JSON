@@ -2,19 +2,22 @@
     {
         "id": 1,
         "title": "Common part",
-        "for": "Bengali,English,History",
-        "price": 15
+        "to": "Bengali,English,History",
+        "price": 15,
+        "details": "Looking to improve in the common subjects for your ssc exam? This package is for you."
     },
     {
         "id": 2,
         "title": "Science Part",
-        "for": "Math,Physic,Chemisty,Biology",
-        "price": 50
+        "to": "Math,Physic,Chemisty,Biology",
+        "price": 50,
+        "details": "Struglling in science subjects? Here is a plan to overcome it."
     },
     {
         "id": 3,
         "title": "Commerce Part",
-        "for": "Accounting,Finance,Economy",
-        "price": 40
+        "to": "Accounting,Finance,Economy",
+        "price": 40,
+        "details": "Maths giving you a hard time? Make it simple with us."
     }
 ]
