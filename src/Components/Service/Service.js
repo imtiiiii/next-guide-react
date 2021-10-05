@@ -4,7 +4,7 @@ import { Col, Button } from 'react-bootstrap';
 import './Service.css'
 
 const Service = (props) => {
-    console.log(props);
+
     const { title, to, price, details } = props.service;
     return (
         <Col xs={12} lg={4}>

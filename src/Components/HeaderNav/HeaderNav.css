@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .routing-links{
     text-decoration: none;
+   
+}
+.routing-links:hover{
+    background-color:darkgrey;
+   
 }
 .nav-img{
     width: 300px;
+}
+.container{
+    font-family: 'Roboto', sans-serif;
 }

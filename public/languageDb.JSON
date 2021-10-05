@@ -2,13 +2,15 @@
     {
         "id": 1,
         "title": "Learn Complete English Language",
-        "for": "IELTS / Moving to Abroad",
-        "price": 40
+        "to": "IELTS / Moving to Abroad",
+        "price": 40,
+        "details": "Preparing for IELTS test or planning to move abroad, you must master the international language English"
     },
     {
         "id": 2,
         "title": "Learn Complete German Language",
-        "for": "GRE/Moving to German ",
-        "price": 50
+        "to": "GRE/Moving to German ",
+        "price": 50,
+        "details": "Looking to move in Germany , learn the hard language in a easy way with us"
     }
 ]

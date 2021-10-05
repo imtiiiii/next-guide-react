@@ -11,7 +11,7 @@ const HeaderHero = () => {
             </Col>
             {/* 2.Header title here  */}
             <Col xs={12} md={7} className="d-flex flex-column justify-content-center ">
-                <h1 >Hello beutiful mind, take warm welcome from <span className="highlight-name"> Next guide </span> institute </h1>
+                <h1 >Hello beutiful mind, take warm welcome from <span className="highlight-name"> Next Guide </span> institute </h1>
                 <h3 className='fst-italic'>If you are here for any academic or non academic help or help for your further study in abroad or any kind of       educational related help you are at the right door.We will be more than happy to welcome you and solve your problem</h3>
             </Col>
 

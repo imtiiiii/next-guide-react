@@ -1,4 +1,10 @@
 .about-us{
-    background-color: #aaf2db;
-    height: 300px;
+    background-color: #c5e1ce;
+    
+}
+.about-us-text{
+    background-image: url(../../img//wave5.svg);
+    background-position: center;
+    object-fit: cover;
+    background-size:cover;
 }

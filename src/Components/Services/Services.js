@@ -6,11 +6,13 @@ import AdmissionDb from '../../Hooks/Admission';
 import HscDb from '../../Hooks/useHscDb';
 import SscDb from '../../Hooks/useSscDb';
 import Service from '../Service/Service';
+import LanguageDb from '../../Hooks/useLanguageDb';
 const Services = () => {
     const [sscServices] = SscDb();
     const [hscServices] = HscDb();
     const [admissionServices] = AdmissionDb();
-
+    const [languageServices] = LanguageDb();
+    console.log(languageServices);
     return (
         <div className="my-5 services-container">
             <Row>
@@ -32,6 +34,14 @@ const Services = () => {
                     admissionServices.map(service => <Service service={service} key={service.id}><h1 className="text-center service-section">Admission Section</h1></Service>)
                 }
             </Row>
+            <div className="my-5">
+            </div>
+            <Row>
+                {
+                    languageServices.map(service => <Service service={service} key={service.id}><h1 className="text-center service-section">Language Section</h1></Service>)
+                }
+            </Row>
+
         </div>
 
 
