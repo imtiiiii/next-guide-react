@@ -1,6 +1,6 @@
 // this component is for navigation bar
 import React from 'react';
-// import img from '../../img/next guide1.png'
+import img from '../../img/next guide 3.png'
 // import { Container, Nav, Navbar } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './HeaderNav.css'
@@ -8,7 +8,7 @@ const HeaderNav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
             <div className="container">
-                <NavLink className="navbar-brand text-white" to="/home">Next Guide</NavLink>
+                <NavLink className="navbar-brand text-white" to="/home"><img src={img} alt="" style={{ width: '100px' }} /></NavLink>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-4 mb-lg-0">
                         <li className="nav-item">
