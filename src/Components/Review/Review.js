@@ -14,7 +14,7 @@ const Review = (props) => {
     const { Name, review } = props.review;
     return (
         <Col>
-            <div className="highlight-card my-5 p-5 shadow-lg text-dark">
+            <div className="highlight-card my-5 p-5  text-dark">
                 <h1 className="text-center">Name: {Name}</h1>
                 <h3>{review}</h3>
                 {star}

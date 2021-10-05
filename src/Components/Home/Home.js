@@ -4,7 +4,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Row, Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import useReviews from '../../Hooks/useReview';
 import HomeHighlight from '../HomeHighlight/HomeHighlight';
+import Review from '../Review/Review';
 
 const Home = () => {
     // 1.set state to store and update data 
@@ -15,6 +17,8 @@ const Home = () => {
             .then(res => res.json())
             .then(data => setHighlights(data));
     }, [])
+    let [reviews] = useReviews();
+    reviews = reviews.slice(0, 3);
     return (
         <div className="my-5">
             <h1 className="text-center uppercase">Some highlights of our instituton that can be useful to you !!!</h1>
@@ -31,6 +35,18 @@ const Home = () => {
                             See Details
                         </NavLink>
                     </Button>
+                    <h1 className="text-center mt-5">TESTIMONIAL</h1>
+                    <Row xs={1} lg={1} gap={3}>
+                        {
+                            reviews.map(review => <Review review={review} key={review.id}></Review>)
+                        }
+                    </Row>
+                    <Button variant="success" >
+                        <NavLink to="/reviews" className="text-white routing-links">
+                            See more reviews
+                        </NavLink>
+                    </Button>
+
                 </Container>
             </div>
         </div>

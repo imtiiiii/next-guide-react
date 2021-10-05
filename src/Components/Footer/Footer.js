@@ -4,14 +4,14 @@ import './Footer.css'
 import img from "../../img/Footer1.jpg"
 const Footer = () => {
     return (
-        <Row className="header-hero footer-bg my-3 ">
+        <Row className="header-hero footer-bg mt-5 ">
 
-            <Col xs={12} md={6} className="d-flex flex-column justify-content-center mt-5 ms-5">
+            <Col xs={11} md={5} className="d-flex flex-column justify-content-center ms-3 mt-3">
                 <h1 >Thanks for visiting<span className="highlight-name"> Next Guide </span> </h1>
                 <p>Contact us: +8801712132411</p>
                 <p>Do you have any query?  Any kind suggetion and feedback for us will be very appreciable</p>
                 <Form>
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Group className="" controlId="exampleForm.ControlInput1">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="name@example.com" />
                         <Form.Label>Name</Form.Label>
@@ -26,7 +26,7 @@ const Footer = () => {
             </Col>
 
             {/* 1.Showing the svg image here */}
-            <Col xs={12} lg={4} className=" mt-5 ms-5">
+            <Col xs={11} lg={5} className="my-3 ">
                 <div className="d-flex justify-content-center rounded-3">
                     <img src={img} alt="" className="w-100 rounded-3" />
                 </div>

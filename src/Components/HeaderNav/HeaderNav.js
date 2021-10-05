@@ -9,7 +9,7 @@ const HeaderNav = () => {
         <nav className="navbar navbar-expand-lg navbar-light bg-success">
             <div className="container">
                 <NavLink className="navbar-brand text-white" to="/home"><img src={img} alt="" style={{ width: '100px' }} /></NavLink>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <div className="" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-4 mb-lg-0">
                         <li className="nav-item">
                             <NavLink className="nav-link active routing-links text-white mx-3" aria-current="page" to="/home">Home</NavLink>

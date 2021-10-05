@@ -5,8 +5,9 @@
     height: 250px;
     border-radius: 10px;
     background-image: url(../../img/wave3.svg);
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     /* background-position:center; */
-    object-fit:contain;
-
+    object-fit:cover;
+    background-size: cover;
+    
 }

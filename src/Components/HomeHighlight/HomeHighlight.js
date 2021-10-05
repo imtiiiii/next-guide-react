@@ -2,7 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import "./HomeHighlight.css"
 const HomeHighlight = (props) => {
-    console.log(props.highlight);
+
     const { title } = props.highlight;
     return (
         <Col>

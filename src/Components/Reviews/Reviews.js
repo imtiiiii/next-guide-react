@@ -4,15 +4,12 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import useReviews from '../../Hooks/useReview';
 import Review from '../Review/Review';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useState([]);
-    useEffect(() => {
-        fetch("./ReviewDb.JSON")
-            .then(res => res.json())
-            .then(data => setReviews(data));
-    }, [])
+    const [reviews] = useReviews();
+
     return (
         <div className="my-4">
             <h1 className="text-center">Review Section. Love of people for us!!!</h1>

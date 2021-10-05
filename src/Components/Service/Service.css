@@ -1,11 +1,12 @@
 .service-card{
-    height: 550px;
-    background-image: url(../../img/wave4.svg);
+    height: 500px;
+    /* background-image: url(../../img/wave4.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    object-fit: contain;
+    object-fit: contain; */
     border-radius: 20px;
+    background-color: #dfeee2;
     margin: 0 10px;
 }
 .service-item{

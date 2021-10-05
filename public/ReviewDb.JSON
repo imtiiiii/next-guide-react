@@ -17,11 +17,16 @@
     {
         "id": 4,
         "Name": "Thomas Muller",
-        "review": "  Finally It's review time... I am very excited to review them..  No word  is not enough for their service, their service is awesome and the price of their course is affordable...  So 5 Star from side... "
+        "review": "  Finally It's review time... I am very excited to review them..  No word  is not enough for their service, their service is awesome and the price of their course is affordable...  So it's  5 Star from side... "
     },
     {
         "id": 5,
         "Name": "Yusuf Yohana",
         "review": "  Next guide is not only a guide by their name but also their service. I consider them as my next guide. Love their service  "
+    },
+    {
+        "id": 6,
+        "Name": "Dr Azad ",
+        "review": "  I took my childrean to this institute and the outcome they are showing is amazing"
     }
 ]
